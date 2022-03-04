@@ -27,5 +27,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Install Powerline font (comes with icons).
 sudo apt-get install fonts-powerline
 
-# Copy Oh-My-Zsh theme into themes folder.
+# Install custom Oh-My-Zsh theme.
 cp colearora.zsh-theme ~/.oh-my-zsh/themes
+
+# Install custom Oh-My-Zsh plugin config.
+cp .zsh_plugin_config ~
+cat ~/.zsh_plugin_config >> ~/.zshrc

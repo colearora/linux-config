@@ -33,12 +33,12 @@ cp colearora.zsh-theme ~/.oh-my-zsh/themes
 # Install zsh plugins.
 cd ~/.oh-my-zsh/custom/plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions.git
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 cd -
 
 # Edit ~/.zshrc as follows.
 # ZSH_THEME="colearora"
-# plugins=(git colored-man-pages zsh-autosuggestions zsh-syntax-highlighting)
+# plugins=(git colored-man-pages zsh-autosuggestions)
 
 # Install custom Oh-My-Zsh plugin config.
 cp .zsh_plugin_config ~

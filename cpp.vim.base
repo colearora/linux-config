@@ -41,6 +41,9 @@ hi Todo cterm=bold ctermfg=240 ctermbg=black
 " Search:
 hi Search ctermfg=white ctermbg=240
 
+" Matching parenthesis:
+hi MatchParen ctermfg=white ctermbg=240
+
 " Functions:
 syntax match CustomFunction /\(.*\)\@<=\h\w*\(<\w\+>\)\=(/he=e-1
 hi CustomFunction cterm=bold ctermfg=white

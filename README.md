@@ -1,2 +1,2 @@
 # linux_config
-A collection of distribution-specific shell scripts that configure a new Linux environment.
+A collection of shell scripts, each performing distribution-specific system configuration.

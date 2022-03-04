@@ -30,6 +30,10 @@ sudo apt-get install fonts-powerline
 # Install custom Oh-My-Zsh theme.
 cp colearora.zsh-theme ~/.oh-my-zsh/themes
 
+# Edit ~/.zshrc as follows.
+# ZSH_THEME="colearora"
+# plugins=(git colored-man-pages zsh-autosuggestions)
+
 # Install custom Oh-My-Zsh plugin config.
 cp .zsh_plugin_config ~
 cat ~/.zsh_plugin_config >> ~/.zshrc

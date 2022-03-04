@@ -10,3 +10,6 @@ ZSH_THEME_GIT_PROMPT_CLEAN=''
 
 # Make commands bold and white.
 zle_highlight=(default:bold,fg=white)
+
+# Make autocomplete suggestions dark gray to match prompt.
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=238'

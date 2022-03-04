@@ -1,0 +1,5 @@
+# Place in home directory, and add the following line to .zshrc:
+# . ${HOME}/.zsh_plugin_config
+
+# Make autosuggest text color match prompt color.
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=238'

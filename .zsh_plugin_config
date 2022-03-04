@@ -1,2 +1,2 @@
 # Make autosuggest text color match prompt color.
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=242'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=240'

@@ -15,6 +15,9 @@ sudo apt-get install gdb
 # Install git.
 sudo apt-get install git-core
 
+# Install valgrind.
+sudo apt-get install valgrind
+
 # Install zsh shell.
 sudo apt-get install zsh
 

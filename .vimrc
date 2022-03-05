@@ -12,7 +12,7 @@ set ignorecase smartcase
 set t_Co=256
 syntax on
 
-inoremap { {<CR>}<Esc>ko
+inoremap {<CR> {<CR>}<Esc>ko
 
 set comments=sl:/*,mb:\ *,elx:\ */
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>

@@ -42,4 +42,4 @@ cd -
 
 # Install custom Oh-My-Zsh plugin config.
 cp .zsh_plugin_config ~
-cat ~/.zsh_plugin_config >> ~/.zshrc
+echo "\n# Install additional config.\n. ~/.zsh_plugin_config" >> ~/.zshrc
